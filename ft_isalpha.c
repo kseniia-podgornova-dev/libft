@@ -6,7 +6,8 @@ int	ft_isalpha (int c)
 }
 
 // #include <stdio.h>
+
 // int main(void)
 // {
-// 	printf("is alfa: %d\n", ft_isalpha ('5'));
+// 	printf("Is alfa? \n%s\n", ft_isalpha('A') ? "Yes" : "Nope");
 // }

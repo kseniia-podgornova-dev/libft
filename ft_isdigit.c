@@ -9,5 +9,5 @@ int	ft_isdigit (int c)
 
 // int	main(void)
 // {
-// 	printf("is digit: %d\n", ft_isdigit('a'));
+// 	printf("is digit? \n%s\n", ft_isdigit('a') ? "Yes" : "Nope");
 // }

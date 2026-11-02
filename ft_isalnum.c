@@ -9,5 +9,5 @@ int	ft_isalnum (int c)
 
 // int	main(void)
 // {
-// 	printf("is alpha-numerico: %d\n", ft_isalnum(' '));
+// 	printf("Is alpha-numeric? \n%s\n", ft_isalnum(' ') ? "Yes" : "Nope");
 // }
