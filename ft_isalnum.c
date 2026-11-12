@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kpodgorn <kpodgorn@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kseniiapodgornova <kseniiapodgornova@st    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 19:08:03 by kpodgorn          #+#    #+#             */
-/*   Updated: 2026/11/02 19:12:30 by kpodgorn         ###   ########.fr       */
+/*   Updated: 2026/11/12 19:53:06 by kseniiapodg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,7 @@ int	ft_isalnum(int c)
 // {
 // 	printf("Is alpha-numeric? \n%s\n", ft_isalnum(' ') ? "Yes" : "Nope");
 // }
+/*
+Functionality: Checks if c is either an alphabetic letter or a decimal digit.
+When to use: When parsing usernames, variable identifiers, or alphanumeric tokens.
+*/

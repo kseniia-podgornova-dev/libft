@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kpodgorn <kpodgorn@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kseniiapodgornova <kseniiapodgornova@st    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 19:08:40 by kpodgorn          #+#    #+#             */
-/*   Updated: 2026/11/02 19:08:41 by kpodgorn         ###   ########.fr       */
+/*   Updated: 2026/11/12 23:20:59 by kseniiapodg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+size_t	ft_strlen(char *str)
 {
-	int	len;
+	size_t	len;
 
 	len = 0;
 	while (str[len])

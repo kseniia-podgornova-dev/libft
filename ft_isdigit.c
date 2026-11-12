@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kpodgorn <kpodgorn@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kseniiapodgornova <kseniiapodgornova@st    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 19:08:26 by kpodgorn          #+#    #+#             */
-/*   Updated: 2026/11/02 19:10:08 by kpodgorn         ###   ########.fr       */
+/*   Updated: 2026/11/12 20:22:47 by kseniiapodg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,9 @@ int	ft_isdigit(int c)
 // {
 // 	printf("is digit? \n%s\n", ft_isdigit('a') ? "Yes" : "Nope");
 // }
+/* 
+Functionality: Checks if c is a decimal digit ('0'–'9'). 
+Returns non-zero if true and 0 if false.
+When to use: Before converting string characters 
+into numbers or validating numeric inputs.
+*/

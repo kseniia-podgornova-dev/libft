@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kpodgorn <kpodgorn@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kseniiapodgornova <kseniiapodgornova@st    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 19:08:18 by kpodgorn          #+#    #+#             */
-/*   Updated: 2026/11/02 19:09:00 by kpodgorn         ###   ########.fr       */
+/*   Updated: 2026/11/12 20:22:58 by kseniiapodg      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,9 @@ int	ft_isascii(int c)
 // 	else
 // 		printf("Nope!\n");
 // }
+/*
+Functionality: Checks if c fits within the standard 
+7-bit ASCII table (values 0 through 127).
+When to use: When filtering out extended or corrupted 
+characters before processing text.
+*/
