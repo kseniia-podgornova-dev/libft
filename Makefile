@@ -6,7 +6,7 @@
 #    By: kpodgorn <kpodgorn@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/11/13 23:03:06 by kpodgorn          #+#    #+#              #
-#    Updated: 2026/11/14 01:06:54 by kpodgorn         ###   ########.fr        #
+#    Updated: 2026/11/14 19:02:13 by kpodgorn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,15 +48,15 @@ $(NAME):	$(OBJS) # Cria a biblioteca estatica libft.a juntando todos os ficheiro
 # c (create) cria o ficheiro libft.h
 # s (symbol index) cria um indice interno para compilador encontrar as funcoes mais rapido
 
-%.o:%.c # Compilation rule
+%.o:%.c # Compilation rule (tardget : depencias)
 			$(CC) $(CFLAGS) -c $< -o $@
 # -c diz ao cc para compilar codigo sem procurar por uma funcao main
-# $< atalho automatico para primeiro ficheiro ficheiro .c
-# $@ atalho automatico para o ficheiro .o
+# $< atalho automatico para primeira depencia - ficheiro .c
+# $@ atalho automatico para o target (alvo) ficheiro .o
 
 clean:
 			$(RM) $(OBJS)
-			
+
 fclean:		clean
 			$(RM) $(NAME)
 

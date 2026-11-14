@@ -6,7 +6,7 @@
 /*   By: kpodgorn <kpodgorn@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 22:01:26 by kpodgorn          #+#    #+#             */
-/*   Updated: 2026/11/14 00:00:07 by kpodgorn         ###   ########.fr       */
+/*   Updated: 2026/11/14 20:53:59 by kpodgorn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	unsigned char		*temp_dest;
 	const unsigned char	*temp_src;
 
-	if (!dest && !src)
-		return (NULL);
 	temp_dest = (unsigned char *)dest;
 	temp_src = (const unsigned char *)src;
 	while (n > 0)
@@ -32,18 +30,17 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 }
 
 // #include <stdio.h>
-// size_t ft_strlen(char *s)
-// {
-// 	size_t	len;
-// 	len = 0;
-// 	while (s[len])
-// 		len++;
-// 	return (len);
-// }
+// #include <string.h>
+
 // int main(void)
 // {
 // 	char	src[20] = "Hello, 42 World!";
 // 	char	dst[20];
+// 	void	*null_ptr = NULL;
+// 	const void	*src = NULL;
+// 
+	// printf("Test my ft_memcpy with NULL: %s\n\n", (char *)ft_memcpy(null_ptr, src, 5));
+	// printf("Test original memcpy with NULL: %s\n", (char *)memcpy(null_ptr, src, 5));
 // 	printf("Before copy: dst = '%s'\n", dst);
 // 	ft_memcpy(dst, src, ft_strlen(src));
 // 	printf("After copy: dst = '%s'\n\n", dst);
